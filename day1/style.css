@@ -13,11 +13,11 @@
   /* width: 900px; */
   width: 80%;
   margin: 0 auto;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 .child {
   background-color: #38CFD9;
-  width: 750px;
+  width: 50%;
   height: 250px;
 }

@@ -1,0 +1,18 @@
+/* Reset Golbal Syles */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.parent {
+  background-color: #23424A;
+  padding: 50px;
+}
+
+.child {
+  background-color: #38CFD9;
+  height: 250px;
+}

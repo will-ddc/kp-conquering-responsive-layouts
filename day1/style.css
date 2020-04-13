@@ -19,6 +19,7 @@
 .child {
   background-color: #38CFD9;
   width: 50%;
-  height: 250px;
+  /* height: 250px; */
+  padding: 5em;
   margin: 0 auto;
 }

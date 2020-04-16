@@ -4,7 +4,7 @@ Quote: when you are fighting against a website its not because its not responsiv
 
 ## Day 1 - Fixed Width vs % Notes
 
-efault width for block elements is 100% viewport width of the parent element
+Default width for block elements is 100% viewport width of the parent element
 fixed widths break native browser responsiveness
 
 when adding fixed width to child elements you end up with overflow when the screen gets smaller than the fixed width.  this happens automatically by default css to make sure you don't lose the text or whatever is in the child element
@@ -20,3 +20,7 @@ This is a general rule. There are times when you want to use height, but for the
 instead of setting a height use padding to get extra space in background of an element
 
 its best to use em/rem than px since those are responsive
+
+## Day 2 - No New Material
+
+## Day 3 - adding max-width

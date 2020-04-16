@@ -24,3 +24,7 @@ its best to use em/rem than px since those are responsive
 ## Day 2 - No New Material
 
 ## Day 3 - adding max-width
+
+max-width is used to limit wider screens from stretching too far
+
+typically you don't want to set a min-width

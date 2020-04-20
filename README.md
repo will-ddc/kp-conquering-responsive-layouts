@@ -28,3 +28,9 @@ its best to use em/rem than px since those are responsive
 max-width is used to limit wider screens from stretching too far
 
 typically you don't want to set a min-width
+
+## Day 4 - No New Material - Video on using VW and VH
+
+https://www.youtube.com/watch?v=IWFqGsXxJ1E
+
+## Day 5 - 

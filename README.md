@@ -52,4 +52,14 @@ box-sizing: border-box - https://youtu.be/WlGQdgy-M6w
 
 ## Day 8 - Flexbox Basics
 
-as
+when adding display: flex you are turning that element into a flex container, all of its children elements become flex items
+
+the default flex-direction is row.  flex-direction: column; turns that default into columns
+
+flex items always try and shrink down to smallest possible size
+
+flex items will fit in one row even if it needs to break out and cause sidescrolling
+
+to ensure flex items are same size even if content size is different add width: 100% to the flex items or whatever width you are going for
+
+beware that only children of the flex parent become flex items, the grandchildren, etc.  do not become part of the flex container/flex item relationship

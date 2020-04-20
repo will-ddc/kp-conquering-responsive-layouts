@@ -27,6 +27,7 @@ h1 {
   /* these are the flex items */
   background-color: limegreen;
   margin: 10px;
+  width: 100%;
 }
 
 .hero {

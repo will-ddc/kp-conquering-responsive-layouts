@@ -2,7 +2,7 @@
 
 Quote: when you are fighting against a website its not because its not responsive its because we did something in our CSS that is making it fight
 
-## Day 1 - Fixed Width vs % Notes
+## Day 1 - Fixed Width vs % Notes | Challenge #1
 
 Default width for block elements is 100% viewport width of the parent element
 fixed widths break native browser responsiveness
@@ -23,7 +23,7 @@ its best to use em/rem than px since those are responsive
 
 ## Day 2 - No New Material
 
-## Day 3 - adding max-width
+## Day 3 - adding max-width | Challenge #2
 
 max-width is used to limit wider screens from stretching too far
 
@@ -33,4 +33,6 @@ typically you don't want to set a min-width
 
 https://www.youtube.com/watch?v=IWFqGsXxJ1E
 
-## Day 5 - 
+## Day 5 - Challenge #3
+
+create copy of the design spec pdf included

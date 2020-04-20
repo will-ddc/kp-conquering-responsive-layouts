@@ -25,7 +25,8 @@ h1 {
 
 .col {
   /* these are the flex items */
-  
+  background-color: limegreen;
+  margin: 10px;
 }
 
 .hero {

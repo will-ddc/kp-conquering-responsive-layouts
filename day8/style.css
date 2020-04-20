@@ -22,13 +22,18 @@ h1 {
   /* this is the flex container */
   display: flex;
 
-  /* only available on firefox currently */
-  gap: 100px;
+  /* only available on firefox currently, so don't use for spacing on flex items */
+  /* gap: 100px; */
+}
+
+/* use this to apply spacing between flex items */
+.col + .col {
+  background-color: limegreen;
+  margin-left: 2rem;
 }
 
 .col {
   /* these are the flex items */
-  background-color: limegreen;
   width: 100%;
 }
 

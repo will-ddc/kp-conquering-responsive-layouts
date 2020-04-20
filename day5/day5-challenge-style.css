@@ -32,14 +32,15 @@ h1 {
 }
 
 .hero-content p {
-  padding-top: 1rem;
-  padding-bottom: 4rem;
+  margin-top: 1rem;
+  margin-bottom: 4rem;
 }
 
 .learn-link {
+  display: inline-block;
   color: #072A2D;
   background-color: #38CFD9;
   text-decoration: none;
-  padding: 1rem 2.5rem;
-  border-radius: 1.9rem;
+  padding: .75em 2em;
+  border-radius: 999px;
 }

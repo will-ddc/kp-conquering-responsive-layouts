@@ -36,3 +36,10 @@ https://www.youtube.com/watch?v=IWFqGsXxJ1E
 ## Day 5 - Challenge #3
 
 create copy of the design spec pdf included
+
+## Day 6 - Review Of First Week
+
+Don't use em/rem for setting font-size
+The Tale of width and max-width: https://css-tricks.com/tale-width-max-width/
+
+## Day 7 - Solution to Challenge 3

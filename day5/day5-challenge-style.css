@@ -7,21 +7,31 @@
 }
 
 body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.3rem;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+.hero {
   background-color: #23424A;
   color: #eee;
+  padding: 2.5rem 0;
 }
 
 .container {
-  width: 90%;
-  padding: 3rem 0;
+  width: 80%;
+  max-width: 900px;
   margin: 0 auto;
 }
 
-.content {
-  width: 50%;
+.hero-content {
+  width: 60%;
 }
 
-.content p {
+.hero-content p {
   padding-top: 1rem;
   padding-bottom: 4rem;
 }

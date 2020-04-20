@@ -43,3 +43,13 @@ Don't use em/rem for setting font-size
 The Tale of width and max-width: https://css-tricks.com/tale-width-max-width/
 
 ## Day 7 - Solution to Challenge 3
+
+Emmet documentation - https://docs.emmet.io/
+
+BEM - https://youtu.be/SLjHSVwXYq4
+
+box-sizing: border-box - https://youtu.be/WlGQdgy-M6w
+
+## Day 8 - Flexbox Basics
+
+as

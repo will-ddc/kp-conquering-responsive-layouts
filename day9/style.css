@@ -46,6 +46,7 @@ h2 {
 .row {
     /* display: flex => flex container */
     display: flex;
+    align-items: flex-start;
     padding: 3rem 0;
 
     /* can't use yet */

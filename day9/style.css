@@ -46,7 +46,6 @@ h2 {
 .row {
     /* display: flex => flex container */
     display: flex;
-    align-items: flex-start;
     padding: 3rem 0;
 
     /* can't use yet */
@@ -87,6 +86,10 @@ h2 {
 
 .hero p {
     margin-bottom: 3em;
+}
+
+.hero__img {
+  align-self: flex-start;
 }
 
 .btn {

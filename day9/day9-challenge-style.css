@@ -1,11 +1,11 @@
-/* 
+/*
 ////// For this challenge ///////
 
 - All text is in the text.md file
 
 // Requirements
 1. Refer to the design specs for the
-   overall layout 
+   overall layout
 2. The image should line up with
    the sidebar in the section
    below
@@ -41,7 +41,7 @@ h1 {
     /* display: flex => flex container */
     display: flex;
     justify-content: space-between;
-    
+
     /* can't use yet */
     /* gap: 100px; */
 }
@@ -61,7 +61,7 @@ h1 {
     color: #FFF;
 }
 
-.hero__text { 
+.hero__text {
     width: 62%;
 }
 
@@ -77,7 +77,7 @@ h1 {
 .btn {
     display: inline-block;
     text-decoration: none;
-    text-transform: uppercase; 
+    text-transform: uppercase;
     color: #23424A;
     font-weight: 900;
     background-color: #38CFD9;
@@ -87,5 +87,5 @@ h1 {
 
 .btn:hover,
 .btn:focus {
-    opacity: .75; 
+    opacity: .75;
 }

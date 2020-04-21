@@ -71,4 +71,14 @@ there are two ways to create space between flex items:
 
 ## Day 9 - Deeper Dive Into Flexbox
 
-as
+when adding images or multiple columns into a flex container each column stretches to match the column with the largest content so images can be stretched or squashed depending on text columns.  one way to fix this is to add align-items: flex-start to the flex container so that each flex item starts at the top left of the flex container, but if you want to keep you flex container css as small as possible you can wrap the image in its own div tag and you want need the align-items added into your css.  if you are trying to keep your html markup down as much as possible add a class to the image tag and use align-self: flex-start on that class.  
+
+align-items is used on flex-containers to effect on all flex items where as align-self is for individual flex items
+
+because flex items always try and take up the smallest amount of space possible you may want them to take up more or less room,  use width to accomplish this.  you could set a text container to width:60% and the image to width: 30% and that way they will take up that much space respectivley.  now you could use margin-left or -right to push items away from each other to create white space but if you change the width then you need to change the margin as well.  an easier method would be to use justify-content.
+
+justify-content is applied on the flex container and tells the flex items to space out or justify the space between them
+
+default is flex-start
+
+to make images fully responsive always add max-width: 100% to the img tag in css

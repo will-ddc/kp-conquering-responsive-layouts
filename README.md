@@ -63,3 +63,12 @@ flex items will fit in one row even if it needs to break out and cause sidescrol
 to ensure flex items are same size even if content size is different add width: 100% to the flex items or whatever width you are going for
 
 beware that only children of the flex parent become flex items, the grandchildren, etc.  do not become part of the flex container/flex item relationship
+
+there are two ways to create space between flex items:
+	1) gap - you would just add gap: 50px to the flex container and each flex item would have a gap of 50px between them without affecting content layout.  ** this is only supported by firefox at the moment though, keep an eye on caniuse.com
+	2) using the + css selector - so .col + .col will select all the .col in a .row flex container but the first one and then add margin-left with the desired gap
+
+
+## Day 9 - Deeper Dive Into Flexbox
+
+as

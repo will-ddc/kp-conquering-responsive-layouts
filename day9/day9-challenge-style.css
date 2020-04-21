@@ -89,3 +89,23 @@ h1 {
 .btn:focus {
     opacity: .75;
 }
+
+#info {
+  margin: 3em auto;
+}
+
+.main__info {
+  width: 62%;
+}
+
+.main__info h2 {
+  color: #136C72;
+}
+
+.extra_info {
+  width: 32%;
+  background-color: #136C72;
+  color: #eee;
+  text-align: center;
+  padding: 2em;
+}

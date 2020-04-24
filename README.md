@@ -94,3 +94,16 @@ https://www.youtube.com/playlist?list=PL4-IK0AVhVjMSb9c06AjRlTpvxL3otpUd - flexb
 no new info, just challenge to create nav bar layout using flexbox
 
 ## Day 12 - Getting Fancy with Navigation
+
+when creating navigation with flexbox you end up nexting multiple flex containers within each other which can start to make getting the exact layout your looking for difficult.  you can set the width to 100% or whatever to try and force it to take up all required space but that doesn't always work.  
+
+to align items vertically when you start adding logos and other things that are bigger than your nav links you use align-items to align the flex items in the container to the start end or center
+
+when you get enough flex containers nested you need to become aware of and use flex-grow and flex-shrink properties on the containers
+
+flex-grow is set to 0 by default and is what makes flex items want to stay as small as possible in their flex container
+
+flex-shrink is is set to 1 by default and is what makes flex items shrink
+
+
+if you want your nav to have the logo on the left, main links centered and the login links to the right you would need to added extra classes and use margin: 0 auto;

@@ -20,7 +20,7 @@ img {
 }
 
 .container {
-  width: 80%;
+  width: 90%;
   max-width: 1128px;
   margin: 0 auto;
 }
@@ -38,4 +38,57 @@ header {
 }
 .secondary__info {
   color: #eee;
+  align-items: center;
+  justify-content: space-around;
+  padding: 4em 0;
+}
+
+.hero {
+  min-height: 660px;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero h1 {
+  color: #824936;
+  font-size: 3.75em;
+}
+
+.hero h2 {
+  font-size: 1.125em;
+  font-family: 'Playfair Display', serif;
+}
+
+.main__info {
+  text-align: center;
+  margin: 3em auto;
+}
+
+.main__info h3 {
+  color: #824936;
+}
+
+.main__info h3,
+.secondary__info-text h3 {
+  font-size: 2.25em;
+}
+
+.main__info-content p {
+  width: 40%;
+  margin: 0 auto;
+  padding: 2em 0;
+  font-size: 1.3125em;
+}
+
+.secondary__info-text {
+ width: 40%;
+}
+
+.secondary__info-text h3 {
+  margin-bottom: 1em;
+}
+
+.secondary__info img {
+  width: 30%;
 }

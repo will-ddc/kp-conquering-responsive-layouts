@@ -14,3 +14,28 @@ body {
 img {
   width: 100%;
 }
+
+.flex {
+  display: flex;
+}
+
+.container {
+  width: 80%;
+  max-width: 1128px;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #F3EED9;
+}
+
+.black {
+  background-color: #222C2A;
+}
+
+.brown {
+  background-color: #824936;
+}
+.secondary__info {
+  color: #eee;
+}

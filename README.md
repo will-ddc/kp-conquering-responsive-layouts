@@ -82,3 +82,13 @@ justify-content is applied on the flex container and tells the flex items to spa
 default is flex-start
 
 to make images fully responsive always add max-width: 100% to the img tag in css
+
+
+## Day 10 - No New Material
+
+https://www.youtube.com/playlist?list=PL4-IK0AVhVjMSb9c06AjRlTpvxL3otpUd - flexbox videos by Kevin Powell
+
+
+## Day 11 - Using Flexbox for Navigation
+
+no new info, just challenge to create nav bar layout using flexbox

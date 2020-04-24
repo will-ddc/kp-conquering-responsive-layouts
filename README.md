@@ -92,3 +92,5 @@ https://www.youtube.com/playlist?list=PL4-IK0AVhVjMSb9c06AjRlTpvxL3otpUd - flexb
 ## Day 11 - Using Flexbox for Navigation
 
 no new info, just challenge to create nav bar layout using flexbox
+
+## Day 12 - Getting Fancy with Navigation

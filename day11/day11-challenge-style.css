@@ -1,4 +1,4 @@
-/* 
+/*
 ////// For this challenge ///////
 
 - All text is in the text.md file
@@ -34,7 +34,7 @@ h1 {
 .btn {
     display: inline-block;
     text-decoration: none;
-    text-transform: uppercase; 
+    text-transform: uppercase;
     color: #23424A;
     font-weight: 900;
     background-color: #38CFD9;
@@ -44,7 +44,7 @@ h1 {
 
 .btn:hover,
 .btn:focus {
-    opacity: .75; 
+    opacity: .75;
 }
 
 .container {
@@ -74,9 +74,16 @@ header {
 }
 
 .nav__list {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
     margin: 0;
     padding: 0;
     list-style: none;
+}
+
+.nav__item {
+  padding: .5em 1em;
 }
 
 .nav__link {
@@ -103,7 +110,7 @@ header {
     color: #FFF;
 }
 
-.hero__text { 
+.hero__text {
     width: 62%;
 }
 

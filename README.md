@@ -114,4 +114,30 @@ if you want your nav to have the logo on the left, main links centered and the l
 
 ## Day 15 - Intro into media queries
 
-a
+most common media query used is min-width or max-width.
+min-width means the minimun width declared or bigger
+max-width means the max width declared or smaller
+
+you can combine min and max width as well
+
+examples:
+
+* below is for screens 600px and bigger, the background changes to blue.  with other css this would be considered mobile first as the media query targets bigger screens
+
+@media (min-width: 600px) {
+    .body {
+      background-color: blue;
+    }
+}
+
+* below is for screens 600px or smaller, the background changes to red.  with other css this would be considered a desktop first approach as the media query targets smaller screens
+
+@media (max-width: 600px) {
+    .body {
+      background-color: red;
+    }
+}
+
+you should try and use a mobile first approach as it normally takes more changes to take  a desktop layout and turn it mobile as opposed from taking a mobile layout to desktop
+
+you always want your media query below all other css otherwise it may not always override how you want it to

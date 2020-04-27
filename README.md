@@ -107,3 +107,11 @@ flex-shrink is is set to 1 by default and is what makes flex items shrink
 
 
 if you want your nav to have the logo on the left, main links centered and the login links to the right you would need to added extra classes and use margin: 0 auto;
+
+
+## Day 13/14 - No New Content
+
+
+## Day 15 - Intro into media queries
+
+a

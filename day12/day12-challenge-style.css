@@ -60,6 +60,11 @@ header {
   font-family: 'Playfair Display', serif;
 }
 
+.hero__text {
+  width: 50%;
+  text-align: center;
+}
+
 .main__info {
   text-align: center;
   margin: 3em auto;

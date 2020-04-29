@@ -144,3 +144,11 @@ you always want your media query below all other css otherwise it may not always
 
 
 ## Day 16 - What Break Points To Use
+
+look at media query breakpoints as the point at which your layout breaks
+
+try and create as few breakpoints as possible, but you may need several.  don't try and target specific devices but a general px of most devices
+
+you'll find several breakpoints that you basically always use, 600-700px and 900-960px are two common ones, then for laptop/desktop screens 1200px and for large laptop/desktop 1800px
+
+## Day 17 - 

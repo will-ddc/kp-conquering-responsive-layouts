@@ -141,3 +141,6 @@ examples:
 you should try and use a mobile first approach as it normally takes more changes to take  a desktop layout and turn it mobile as opposed from taking a mobile layout to desktop
 
 you always want your media query below all other css otherwise it may not always override how you want it to
+
+
+## Day 16 - What Break Points To Use

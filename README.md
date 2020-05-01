@@ -161,4 +161,4 @@ this important meta tag is very important, it tells the page what the max-width 
 
 ## Day 18 - Mobile First
 
-h
+Learn About CSS custom properties - https://youtu.be/PHO6TBq_auI

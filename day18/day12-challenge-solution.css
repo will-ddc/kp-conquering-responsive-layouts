@@ -5,3 +5,15 @@
   margin: 0;
   padding: 0;
 }
+
+/* FONTS
+font-family: 'Roboto', sans-serif;
+font-family: 'Playfair Display', serif;
+*/
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.3125em;
+  line-height: 1.6;
+  color: #222C2A;
+}

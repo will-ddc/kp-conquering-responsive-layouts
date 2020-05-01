@@ -27,6 +27,24 @@ h1, h2 {
   line-height: 1.1;
 }
 
+section {
+  padding: 4em 0;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.section-title {
+  font-size: 2.25rem;
+  color: #F3EED9;
+}
+
+.section-title--dark {
+  color: #824936;
+}
+
 .intro {
   background-color: #F3EED9;
   padding: 200px 0;
@@ -43,4 +61,14 @@ h1, h2 {
 
 .intro__title {
   font-size: 60px;
+}
+
+.section-three {
+  background-color: #222C2A;
+  color: #F3EED9;
+}
+
+.section-four {
+  background-color: #824936;
+  color: #F3EED9;
 }

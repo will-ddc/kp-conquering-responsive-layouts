@@ -24,4 +24,23 @@ img {
 
 h1, h2 {
   font-family: 'Playfair Display', serif;
+  line-height: 1.1;
+}
+
+.intro {
+  background-color: #F3EED9;
+  padding: 200px 0;
+  text-align: center;
+  color: #824936;
+}
+
+.intro__text {
+  font-size: 1.125em;
+  letter-spacing: 10px;
+  color: #222C2A;
+  margin: 0 0 .25em 0;
+}
+
+.intro__title {
+  font-size: 60px;
 }

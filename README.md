@@ -151,8 +151,14 @@ try and create as few breakpoints as possible, but you may need several.  don't 
 
 you'll find several breakpoints that you basically always use, 600-700px and 900-960px are two common ones, then for laptop/desktop screens 1200px and for large laptop/desktop 1800px
 
+
 ## Day 17 - viewport meta tag
 
 this important meta tag is very important, it tells the page what the max-width of the device accessing your site is so the correct media query is being used.  make sure to include this tag on any html page
 
 ** Firefox web browser does a great job of compensating for this if the tag is forgotten but other browsers not so much **
+
+
+## Day 18 - Mobile First
+
+h

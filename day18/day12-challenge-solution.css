@@ -34,6 +34,7 @@ section {
 .container {
   width: 90%;
   margin: 0 auto;
+  max-width: 1128px;
 }
 
 .section-title {
@@ -72,4 +73,10 @@ section {
 .section-four {
   background-color: #824936;
   color: #F3EED9;
+}
+
+@media (min-width: 700px) {
+  .row {
+    display: flex;
+  }
 }

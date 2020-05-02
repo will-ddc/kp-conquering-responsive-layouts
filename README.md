@@ -159,6 +159,6 @@ this important meta tag is very important, it tells the page what the max-width 
 ** Firefox web browser does a great job of compensating for this if the tag is forgotten but other browsers not so much **
 
 
-## Day 18 - Mobile First
+## Day 18 - Day 12 Challenge Solution w/ Mobile First Approach
 
 Learn About CSS custom properties - https://youtu.be/PHO6TBq_auI

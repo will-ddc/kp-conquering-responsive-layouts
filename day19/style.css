@@ -67,12 +67,42 @@ header {
     visibility: hidden;
     height: 0;
     position: absolute;
+    font-size: 1rem;
+    font-weight: bold;
 }
 
 .nav--visible {
     visibility: visible;
     height: auto;
     position: relative;
+}
+
+.nav__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.nav__item {
+  margin-top: 1rem;
+}
+
+.nav__link {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+}
+
+.nav__link:hover,
+.nav__link:focus {
+  opacity: .6;
+}
+
+.nav__link--button {
+  background-color: white;
+  color: #136c72;
+  padding: .5em 1em;
+  border-radius: 999px;
 }
 
 .nav-toggle {

@@ -162,3 +162,18 @@ this important meta tag is very important, it tells the page what the max-width 
 ## Day 18 - Day 12 Challenge Solution w/ Mobile First Approach
 
 Learn About CSS custom properties - https://youtu.be/PHO6TBq_auI
+
+Learn About CSS height/width measurements - https://youtu.be/IWFqGsXxJ1E
+
+when coding for mobile first while your css is based on this approach write your HTML based on the large screen layout so you have better control on basic layout
+
+when using larger font-sizes make sure to be setting line-height: 1 or around there or the spacing can get out of hand
+
+generally the smallest devices are 320px wide
+
+the advantage to doing a mobile first css approach is generally your css doesn't need fancy layout just the fonts, colors, and some spacing to make it look good on mobile devices, except your navigation bar may need some extra layout things but overall there isn't a ton of css to write
+
+never have long lines of text, this is a design thing, you always want to break it up into smaller columns and sections instead of having it stretch across the whole screen, this is where max-width comes into play
+
+
+## Day 19 - 

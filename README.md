@@ -176,4 +176,6 @@ the advantage to doing a mobile first css approach is generally your css doesn't
 never have long lines of text, this is a design thing, you always want to break it up into smaller columns and sections instead of having it stretch across the whole screen, this is where max-width comes into play
 
 
-## Day 19 - 
+## Day 19 - Mobile Navigation Challenge
+
+no new content, just challenge to make mobile friendly nav menu

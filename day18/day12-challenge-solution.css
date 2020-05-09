@@ -62,7 +62,7 @@ section {
 }
 
 .intro__title {
-  font-size: 3.25rem;
+  font-size: 3rem;
 }
 
 .section-three {
@@ -76,7 +76,24 @@ section {
 }
 
 @media (min-width: 700px) {
+
   .row {
     display: flex;
+  }
+
+  .section-title--dark {
+    text-align: center;
+  }
+
+  .col {
+    width: 100%;
+  }
+
+  .col + .col {
+    margin-left: 3rem;
+  }
+
+  .intro__title {
+    font-size: 3.75rem;
   }
 }

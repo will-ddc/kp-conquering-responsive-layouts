@@ -35,7 +35,7 @@ h1 {
 .btn {
     display: inline-block;
     text-decoration: none;
-    text-transform: uppercase; 
+    text-transform: uppercase;
     color: #23424A;
     font-weight: 900;
     background-color: #38CFD9;
@@ -45,7 +45,7 @@ h1 {
 
 .btn:hover,
 .btn:focus {
-    opacity: .75; 
+    opacity: .75;
 }
 
 .container {
@@ -64,8 +64,35 @@ header {
 
 .nav {
     width: 100%;
+    margin: 0 auto;
 }
 
+.nav__list--secondary {
+  margin-top: 3rem;
+}
+
+.nav__item {
+  list-style: none;
+}
+
+.nav__item + .nav__item {
+  margin-top: 1.5rem;
+}
+
+.nav__link {
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.nav__link--button {
+  background-color: white;
+  border-radius: 999px;
+  color: #136c72;
+  padding: .5rem 1rem;;
+}
 
 
 .nav-toggle {
@@ -78,7 +105,7 @@ header {
     background: #072A2D;
     color: white;
     transition: opacity 250ms ease;
-    
+
     position: absolute;
     left: 0;
 }
@@ -118,7 +145,7 @@ header {
 
 /* made changes here from video
    to make it more accessible.
-   
+
    Works the same :) */
 .nav {
     visibility: hidden;
@@ -130,7 +157,7 @@ header {
     visibility: visible;
     height: auto;
     position: relative;
-} 
+}
 
 
 .logo {
@@ -170,7 +197,7 @@ header {
 
 @media (min-width: 800px) {
 
-    
+
     .nav-toggle {
         display: none;
     }
@@ -190,13 +217,13 @@ header {
     .hero__text {
         width: 62%;
     }
-    
+
     .hero__img {
         width: 32%;
         align-self: flex-start;
         margin: 0;
     }
-    
+
     .primary-content {
         width: 62%;
     }
@@ -204,6 +231,6 @@ header {
     .sidebar {
         width: 32%;
     }
-    
-    
+
+
 }

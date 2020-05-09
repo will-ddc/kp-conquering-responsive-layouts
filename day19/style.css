@@ -202,7 +202,27 @@ header {
     .nav {
         visibility: visible;
         display: flex;
+        align-items: center;
+        justify-content: flex-end;
         height: auto;
+        position: relative;
+    }
+
+    .nav__list {
+      display: flex;
+      margin: 0;
+    }
+
+    .nav__list--secondary {
+      margin-left: 2rem;
+    }
+
+    .nav__item {
+      margin: 0;
+    }
+
+    .nav__item + .nav__item {
+      margin-left: .75rem;
     }
 
     .row {

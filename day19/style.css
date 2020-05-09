@@ -88,6 +88,11 @@ header {
   font-weight: bold;
 }
 
+.nav__link:hover,
+.nav__link:focus {
+  opacity: .6;
+}
+
 .nav__link--button {
   background-color: white;
   border-radius: 999px;

@@ -179,3 +179,31 @@ never have long lines of text, this is a design thing, you always want to break 
 ## Day 19 - Mobile Navigation Challenge
 
 no new content, just challenge to make mobile friendly nav menu
+
+
+## Day 20 - Mobile Navigation Challenge Solution
+
+no new content just solution to day 19 challenge
+
+
+## Day 21 - Final Challenge
+
+Other Free Resource Links
+
+Kevin Powell YouTube - https://www.youtube.com/kevinpowell
+Kevin Powell HTML/CSS Crash Course - https://scrimba.com/course/ghtmlcss
+Wes Bos CSS Grid Course - https://cssgrid.io/
+FrontEnd Dev Courses - https://www.frontendmentor.io/
+Brad Traversy YouTube - https://www.youtube.com/channel/UC29ju8bIPH5as8OGnQzwJyA
+Web Dev Simplified YouTube - https://www.youtube.com/channel/UCFbNIlppjAuEX4znoulh0Cw
+DesignCourse YouTube - https://www.youtube.com/user/DesignCourse
+Program With Erik YouTube - https://www.youtube.com/channel/UCshZ3rdoCLjDYuTR_RBubzw
+Florin Pop YouTube - https://www.youtube.com/c/florinpop
+Dev Ed YouTube - https://www.youtube.com/channel/UClb90NQQcskPUGDIXsQEz5Q
+Weibenfalk YouTube - https://www.youtube.com/user/Weibenfalk
+Coder Coder YouTube - https://www.youtube.com/channel/UCzNf0liwUzMN6_pixbQlMhQ
+James Q Quick YouTube - https://www.youtube.com/channel/UC-T8W79DN6PBnzomelvqJYw
+Flavio YouTube - https://www.youtube.com/user/copesc
+Colt Steele YouTube - https://www.youtube.com/channel/UCrqAGUPPMOdo0jfQ6grikZw/videos
+
+Final Challenge is just a layout pdf to recreate from scratch

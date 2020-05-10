@@ -51,7 +51,6 @@ header {
     visibility: hidden;
     height: 0;
     position: absolute;
-    font-size: 1rem;
     font-weight: bold;
 }
 
@@ -78,6 +77,7 @@ header {
   text-decoration: none;
   color: white;
   font-size: 1.125rem;
+  transition: opacity 250ms ease;
 }
 
 .nav__link--btn {
@@ -96,14 +96,13 @@ header {
     border: 0;
     width: 3em;
     height: 3em;
-    padding: 0em;
     border-radius: 50%;
     background: #3B4050;
     color: white;
     transition: opacity 250ms ease;
     position: absolute;
     right: 0;
-    top: -20%;
+    transform: translate(0, -12.5%);
 }
 
 .nav-toggle:focus,

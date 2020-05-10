@@ -34,6 +34,8 @@ body {
   width: 80%;
   max-width: 1200px;
   margin: 0 auto;
+  /* added for nav-toggle positioning */
+  position: relative;
 }
 
 /* nav bar styling */
@@ -42,6 +44,21 @@ header {
   background-color: #2E323F;
   text-align: center;
   padding: 1.25rem 0;
+}
+
+.nav {
+    width: 100%;
+    visibility: hidden;
+    height: 0;
+    position: absolute;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.nav--visible {
+    visibility: visible;
+    height: auto;
+    position: relative;
 }
 
 .nav__list {
@@ -67,4 +84,61 @@ header {
   background-color: #A59678;
   padding: .25rem 1rem;
   border-radius: 999px;
+}
+
+.nav__link:hover,
+.nav__link:focus {
+  opacity: .6;
+}
+
+.nav-toggle {
+    cursor: pointer;
+    border: 0;
+    width: 3em;
+    height: 3em;
+    padding: 0em;
+    border-radius: 50%;
+    background: #3B4050;
+    color: white;
+    transition: opacity 250ms ease;
+    position: absolute;
+    right: 0;
+    top: -20%;
+}
+
+.nav-toggle:focus,
+.nav-toggle:hover {
+    opacity: .75;
+}
+
+.hamburger {
+  width: 50%;
+  position: relative;
+}
+
+.hamburger,
+.hamburger::before,
+.hamburger::after {
+    display: block;
+    margin: 0 auto;
+    height: 3px;
+    background: white;
+}
+
+.hamburger::before,
+.hamburger::after {
+    content: '';
+    width: 100%;
+}
+
+.hamburger::before {
+    transform: translateY(-6px);
+}
+
+.hamburger::after {
+    transform: translateY(3px);
+}
+
+.logo {
+    height: 30px;
 }

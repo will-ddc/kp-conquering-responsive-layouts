@@ -1,11 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald:wght@700&display=swap');
+
+/* reset browser css */
+
 *,
 *::after,
 *::before {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-size: 16px;
 }
+
+/* Placeholder for custom variables */
+
+:root {
+  --primary-font: 'Oswald', sans-serif;
+  --secondary-font: 'Montserrat', sans-serif;
+}
+
+/* keeps images fully responsive */
 
 img {
   max-width: 100%;
+}
+
+body {
+  font-family: var(--primary-font);
+}
+
+/* layout */
+
+.container {
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* nav bar styling */
+
+header {
+  background-color: #2E323F;
+  text-align: center;
+  padding: 1.25rem 0;
+}
+
+.nav__list {
+  list-style: none;
+  text-transform: uppercase;
+}
+
+.nav__list--secondary {
+  margin-top: 1.75rem;
+}
+
+.nav__item {
+  margin-top: .75rem;
+}
+
+.nav__link {
+  text-decoration: none;
+  color: white;
+  font-size: 1.125rem;
+}
+
+.nav__link--btn {
+  background-color: #A59678;
+  padding: .25rem 1rem;
+  border-radius: 999px;
 }

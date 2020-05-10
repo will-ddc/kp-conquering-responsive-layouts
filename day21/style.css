@@ -253,4 +253,48 @@ header {
 
 .sidebar__text {
   font-size: 1.125rem;
+  font-family: var(--secondary-font);
+}
+
+/* footer section */
+
+footer {
+  background-color: var(--dark-gray-lighter);
+  padding: 6.25rem 3rem;
+}
+
+.footer__title {
+  font-size: 1.5rem;
+  text-align: center;
+  color: var(--white);
+}
+
+.footer__subtitle {
+  font-size: 1.3125rem;
+  margin-bottom: 1.5rem;
+  color: var(--gray);
+}
+
+.footer__text {
+  font-family: var(--secondary-font);
+  color: var(--white);
+}
+
+.footer_nav__list {
+  list-style: none;
+  text-transform: uppercase;
+}
+
+.footer_nav__item {
+  margin-top: .5rem;
+}
+
+.footer_nav__link {
+  text-decoration: none;
+  transition: opacity 250ms ease;
+}
+
+.footer_nav__link:hover,
+.footer_nav__link:focus {
+  opacity: .6;
 }

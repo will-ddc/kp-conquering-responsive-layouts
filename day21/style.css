@@ -210,3 +210,25 @@ header {
   font-family: var(--secondary-font);
   color: var(--medium-gray);
 }
+
+/* primary section */
+
+.primary {
+  padding: 6.25rem 0;
+}
+
+.primary__title {
+  margin-bottom: 1.5rem;
+  font-size: 2.25rem;
+  color: var(--gray);
+}
+
+.primary__text {
+  font-size: 1.3125rem;
+  font-family: var(--secondary-font);
+  color: var(--medium-gray);
+}
+
+.primary__img {
+  margin: 2rem 0;
+}

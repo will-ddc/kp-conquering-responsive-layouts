@@ -232,3 +232,25 @@ header {
 .primary__img {
   margin: 2rem 0;
 }
+
+/* sidebar section */
+
+.sidebar {
+  text-align: center;
+  color: var(--white);
+}
+
+.sidebar__col {
+  background-color: var(--dark-gray-lighter);
+  padding: 1.5rem;
+  margin-top: 0;
+}
+
+.sidebar__title {
+  margin-bottom: 1.5rem;
+  font-size: 1.875rem;
+}
+
+.sidebar__text {
+  font-size: 1.125rem;
+}
